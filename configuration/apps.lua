@@ -13,8 +13,9 @@ return {
     screenshot = 'flameshot full -p ~/Pictures',
     region_screenshot = 'flameshot gui -p ~/Pictures',
     delayed_screenshot = 'flameshot full -p ~/Pictures -d 5000',
-    browser = 'firefox',
-    editor = 'subl', -- gui text editor
+    browser = 'google-chrome-stable',
+    editor = 'vim',
+    gui_editor = 'subl', -- gui text editor
     social = 'discord',
     game = rofi_command,
     files = 'thunar',
