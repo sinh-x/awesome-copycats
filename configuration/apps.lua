@@ -17,9 +17,7 @@ return {
     editor = 'vim',
     gui_editor = 'subl', -- gui text editor
     social = 'discord',
-    game = rofi_command,
-    files = 'thunar',
-    music = rofi_command 
+    files = 'nautilus',
   },
   -- List of apps to start once on start-up
   run_on_start_up = {
